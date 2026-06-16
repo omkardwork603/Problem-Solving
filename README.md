@@ -1,1 +1,1 @@
-This repository contains my solutions to various programming and algorithmic problems implemented in PHP.
+This repository contains PHP solutions to programming and algorithmic problems ranging from basic to advanced levels.
