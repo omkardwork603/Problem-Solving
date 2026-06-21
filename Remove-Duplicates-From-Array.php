@@ -18,7 +18,6 @@ for($i=0; isset($arr[$i]); $i++)
     if(!$duplicate)
     {
         echo $arr[$i]." ";
-    }
-}
+   
 
 ?>
