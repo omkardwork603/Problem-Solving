@@ -1,0 +1,26 @@
+<?php
+
+// Remove Duplicates From Array
+
+$arr = [10,20,10,30,20,40];
+
+for($i=0; isset($arr[$i]); $i++)
+{
+    $duplicate = false;
+
+    for($j=0; $j<$i; $j++)
+    {
+        if($arr[$i] == $arr[$j])
+        {
+            $duplicate = true;
+            break;
+        }
+    }
+
+    if(!$duplicate)
+    {
+        echo $arr[$i]." ";
+    }
+}
+
+?>
